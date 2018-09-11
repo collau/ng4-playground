@@ -1,0 +1,29 @@
+/* @import url('https://fonts.googleapis.com/css?family=Alegreya+Sans+SC|Roboto|Raleway|Montserrat'); */
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    opacity: .50;
+}
+
+nav a {
+    font-family: 'Montserrat', serif;
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.bg {
+    background-image: url("../assets/LionKing.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
